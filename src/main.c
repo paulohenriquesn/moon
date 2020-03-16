@@ -3,8 +3,7 @@
 #include <string.h>
 
 #include "headers/lexer.h" // includes lexer header into the script
-
-#define MEMORY_CHAR_LINECODE 255    
+#include "headers/helpers.h"  
 
 int main(int argc, char *argv[])
 {
