@@ -40,10 +40,11 @@ bool valueCollector = false; //change route for token to collect values instead 
 
    }
 
-  return parser(func,value); // check if there is error if not so pass next turn
+  parser(func,value); // check if there is error if not so pass next turn
 
   free(value); // free memory alocated
   free(func); // free memory allocated
+  return 0;
 
 }
 
