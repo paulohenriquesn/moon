@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 
 //What's a node?
 // Node is an group graph that u can manipulate groups
