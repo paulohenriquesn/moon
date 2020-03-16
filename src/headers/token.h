@@ -6,4 +6,4 @@ typedef struct {
     bool valuefinder;
 }token;
 
-#include "dictionary.c"
+#include "../dictionary.c"

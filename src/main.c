@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "headers/lexer.c" // includes lexer header into the script
+#include "lexer.c" // includes lexer header into the script
 #include "headers/helpers.h"  
 
 int main(int argc, char *argv[])
