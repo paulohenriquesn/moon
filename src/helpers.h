@@ -1,0 +1,7 @@
+#ifndef HELPERS_H
+#define HELPERS_H
+
+#define MEMORY_CHAR_LINECODE 255
+#define MEMORY_VARS 1024
+
+#endif //HELPERS_H
