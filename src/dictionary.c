@@ -15,6 +15,12 @@ token dictionary(char type) { // this function will tag a char if it is on dic i
             result.type = "\"";
             result.valuefinder = true;
             break;
+            //Another Key Finder
+        case '&':
+            result.name = "catchvalue";
+            result.type = "&";
+            result.valuefinder = true;
+            break;
     }
 
     return result; // so if is an char dic so return it for us

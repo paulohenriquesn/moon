@@ -4,7 +4,7 @@
 #include "helpers.h"
 
 int main(int argc, char *argv[]) {
-    char *file = (argc > 1) ? argv[1] : "../../example.moon";
+    char *file = (argc > 1) ? argv[1] : "../example.moon";
     FILE *script_file = fopen(file, "r"); //Read Moon Script File
 
     if (script_file == NULL) { // check if script has code in there

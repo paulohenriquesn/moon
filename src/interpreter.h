@@ -6,7 +6,7 @@
 #include "function.h"
 #include "node.h"
 #include "helpers.h"
-
+#include <stdio.h>
 int interpreter(function);
 
 #endif //MOON_INTERPRETER_H
